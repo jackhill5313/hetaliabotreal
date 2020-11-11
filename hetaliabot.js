@@ -31,6 +31,8 @@ client.on("message", message => {
     channel =>
       channel.id === "265571754393468928"
   );
+
+      channel.send(`<@${message.author.id}>, welcome!`)
       let embed = new Discord.MessageEmbed()
       .setAuthor(`Welcome to the server, ${message.author.tag}`, message.author.displayAvatarURL())
       .setColor('#7ba3ff')
