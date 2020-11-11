@@ -1,2 +1,2 @@
-# hetaliabotreal
-real hetalia bot
+# hetaliabot2
+hetalia bot
