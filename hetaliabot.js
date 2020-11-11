@@ -36,7 +36,7 @@ client.on("message", message => {
       let embed = new Discord.MessageEmbed()
       .setAuthor(`Welcome to the server, ${message.author.tag}`, message.author.displayAvatarURL())
       .setColor('#7ba3ff')
-      .setDescription(`<@${message.author.id}> just joined the discord! Make sure to fill out an <#423069581460897793> and get some <#759849308739731537> whenever!`)
+      .setDescription(`<@${message.author.id}> just joined the server! Make sure to fill out an <#423069581460897793> and get some <#759849308739731537> whenever!`)
       .setThumbnail(message.author.displayAvatarURL())
       .setTimestamp()
       .setFooter("PM PierreBot with any questions!")
