@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log("I am ready!");
-  client.user.setActivity("ur mom lol", { type: "WATCHING" });
+  client.user.setActivity("Hetalia: World Stars", { type: "WATCHING" });
 });
 
 // WELCOME MESSAGE WHEN USER HAS ACCEPTED THE RULES // 
