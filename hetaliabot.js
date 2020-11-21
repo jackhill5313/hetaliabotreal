@@ -1,10 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const arrayOfUsersIds = ['134478998662152202','264945356884672524'];
 
-for (let i = 0; i < arrayOfUsersIds.length; i++) {
-    if (message.author.id === arrayOfUsersIds[i]) return;
-};
 
 client.on("ready", () => {
   console.log("I am ready!");
